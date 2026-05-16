@@ -2,8 +2,8 @@ import streamlit as st
 import pickle
 import os
 
-model = pickle.load(open(os.path.join(os.path.dirname(__file__), "fake_news_model.pkl"), "rb"))
-tfidf = pickle.load(open(os.path.join(os.path.dirname(__file__), "tfidf_vectorizer.pkl"), "rb"))
+model = pickle.load(open(os.path.join(os.path.dirname(__file__), "fake_news_model (1).pkl"), "rb"))
+tfidf = pickle.load(open(os.path.join(os.path.dirname(__file__), "tfidf_vectorizer (1).pkl"), "rb"))
 
 st.title("Fake News Detector")
 st.write("Copy-Paste any news article below to check if it's real or fake!")

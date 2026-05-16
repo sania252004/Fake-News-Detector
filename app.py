@@ -5,7 +5,7 @@ model = pickle.load(open("fake_news_model.pkl", "rb"))
 tfidf = pickle.load(open("tfidf_vectorizer.pkl", "rb"))
 
 st.title("Fake News Detector")
-st.write("Cpy-Paste any news article below to check if it's real or fake!")
+st.write("Copy-Paste any news article below to check if it's real or fake!")
 
 news = st.text_area("Enter news article here:", height=200)
 
